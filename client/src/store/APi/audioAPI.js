@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const BASE_URL = "https://audio-player-server.onrender.com/api/audios";
+const BASE_URL = "http://localhost:5004/api/audios";
 const axiosConfig = {
   withCredentials: true,
 };
