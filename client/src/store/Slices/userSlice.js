@@ -1,6 +1,6 @@
 import { createSlice, createAsyncThunk } from "@reduxjs/toolkit";
 import { toggleBookmark } from "./audioSlice";
-import * as api from "../Api/userAPI";
+import * as api from "../APi/userAPI";
 
 // --- Thunks ---
 
