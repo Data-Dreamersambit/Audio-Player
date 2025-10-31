@@ -1,7 +1,7 @@
 // src/api/userApi.js
 import axios from "axios";
 
-const BASE_URL = "https://audio-player-server.onrender.com/api/users";
+const BASE_URL = "http://localhost:5004/api/users";
 const api = axios.create({ baseURL: BASE_URL, withCredentials: true });
 
 export const signupUser = (formData) =>
